@@ -66,4 +66,4 @@ A small C# Discord bot that watches Roblox WindowsPlayer LIVE updates and posts 
 - Update IDs to match your server to avoid missing channel/guild errors.
 
 ## License
-- No explicit license provided. Treat as private/internal unless stated otherwise.
+- MIT // **If you use this make sure to leave a little credit**
