@@ -64,5 +64,19 @@ A small C# Discord bot that watches Roblox WindowsPlayer LIVE updates and posts 
 - If your machine does not have `warp-cli`, run without `--warp`.
 - Update IDs to match your server to avoid missing channel/guild errors.
 
+## Disclaimer
+
+This repository and its contents are provided strictly **for educational and research purposes only**.  
+The code is intended as a learning resource to demonstrate how a Discord bot can interact with external APIs and services.  
+
+- This project is **not affiliated with, endorsed by, or connected to Roblox Corporation or Discord Inc.**  
+- All trademarks, product names, and company names mentioned are the property of their respective owners.  
+- The author makes **no guarantees** regarding the functionality, reliability, or suitability of this code for production use.  
+- Any use of this project is done **at your own risk**. The author assumes no responsibility for misuse, damages, or violations of third-party terms of service.  
+- By cloning, modifying, or running this repository, you acknowledge that it is intended solely as an **educational resource** and agree not to use it in ways that could cause harm, violate platform rules, or breach applicable laws.  
+
+If you wish to deploy or adapt this project, please ensure that you comply with the **Discord Developer Terms of Service** and the **Roblox Terms of Use**.  
+
+
 ## License
 - MIT // **If you use this make sure to leave a little credit**
