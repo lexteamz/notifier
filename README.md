@@ -23,12 +23,9 @@ A small C# Discord bot that watches Roblox WindowsPlayer LIVE updates and posts 
     "token": "YOUR_BOT_TOKEN"
   }
   ```
-- Set your Discord user ID in `Classes/Permissions.cs` so admin checks work:
-  - Update `HostUserId` to your numeric Discord ID.
-- Point the bot to your server by updating IDs in `Program.cs`:
-  - Guild ID for command registration.
-  - Text channel IDs for update notifications.
-  - Voice channel IDs used for status/version naming.
+- Update IDs in [Classes/Globals.cs](Classes/Globals.cs) to match your server to avoid missing channel/guild errors.
+- Setup for people unable to read and understand the code:
+![](assets/nonchalant.png)
 
 ## Run
 - Restore and build:
@@ -62,7 +59,7 @@ A small C# Discord bot that watches Roblox WindowsPlayer LIVE updates and posts 
 
 ## Notes
 - If your machine does not have `warp-cli`, run without `--warp`.
-- Update IDs to match your server to avoid missing channel/guild errors.
+
 
 ## Disclaimer
 
@@ -77,6 +74,6 @@ The code is intended as a learning resource to demonstrate how a Discord bot can
 
 If you wish to deploy or adapt this project, please ensure that you comply with the **Discord Developer Terms of Service** and the **Roblox Terms of Use**.  
 
+<hr/>
 
-## License
-- MIT // **If you use this make sure to leave a little credit**
+— Made with love by Excel. <3
